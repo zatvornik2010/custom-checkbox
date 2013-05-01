@@ -1,7 +1,7 @@
 custom-checkbox
 ===============
 
-Creates custom view for standard html checkbox or radio input 
+Create custom view for standard html checkbox or radio input 
 
 It is very easy to initialize plugin: ``` $("input[type='checkbox']").tiCheckbox();```
 
@@ -27,7 +27,7 @@ You can set left or right position for check icon and set margin.
     });
 ```
 
-After changing your input you should to refresh custom label state:
+After changing your input you should refresh custom label state:
 ```html
     $("input[type='checkbox']").tiCheckbox().refresh();
 ```
