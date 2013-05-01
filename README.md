@@ -35,4 +35,4 @@ After changing your input you should to refresh custom label state:
 You can use this plugin also for radio inputs and groups. Plugin adds special class "radio" for
 custom label container.
 
-View examples there http://devserver.ti.dn.ua/~artem/mysamples/custom-checkbox/
+View examples here http://devserver.ti.dn.ua/~artem/mysamples/custom-checkbox/
