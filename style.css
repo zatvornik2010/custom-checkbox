@@ -1,0 +1,27 @@
+.ti-custom-checkbox .icon-checkbox{
+    background-image: url(checkbox.png);
+    background-position: 0 0;
+    display: inline-block;
+    *display: inline;
+    height: 15px;
+    width: 15px;
+    zoom: 1;
+}
+
+.ti-custom-checkbox.checked .icon-checkbox{
+    background-position: 0 -35px;
+}
+
+.ti-custom-checkbox.checked.disabled .icon-checkbox{
+    background-position: 0 -75px;
+}
+
+input[type="checkbox"].ti-hidden,
+input[type="radio"].ti-hidden{
+    left: -9999px;
+    position: absolute;
+}
+
+label.ti-custom-checkbox{
+    cursor: pointer;
+}
