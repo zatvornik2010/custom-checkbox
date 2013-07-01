@@ -75,6 +75,7 @@ custom label container.
                 if (cCh.attr("type")=="radio") {
                     $('input[name="'+cCh.attr("name")+'"]').each(function(){
                         $(this).siblings('label').removeClass("checked");
+                        $(this).removeAttr("checked");
                     });
                     cCh.attr("checked","checked");
                     lb.addClass("checked");
