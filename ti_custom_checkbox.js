@@ -63,7 +63,10 @@ custom label container.
                 if (!check.hasClass("ti-hidden")) init();
 
                 label.bind("click", function(){
-                    if (!label.hasClass("disabled")) lbClick(label);
+                    if (!label.hasClass("disabled")) {
+                        check.trigger("click");
+                        lbClick(label);
+                    }
                 });
             });
 
