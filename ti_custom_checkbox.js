@@ -75,14 +75,10 @@ custom label container.
                 if (cCh.attr("type")=="radio") {
                     $('input[name="'+cCh.attr("name")+'"]').each(function(){
                         $(this).siblings('label').removeClass("checked");
-                        $(this).removeAttr("checked");
                     });
-                    cCh.attr("checked","checked");
                     lb.addClass("checked");
                 } else {
                     lb.toggleClass("checked");
-                    if (lb.hasClass("checked")) lb.siblings("input.ti-hidden").attr("checked","checked");
-                    else lb.siblings("input.ti-hidden").removeAttr("checked");
                 };
             }
 
