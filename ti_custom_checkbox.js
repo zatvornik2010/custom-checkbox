@@ -64,7 +64,7 @@ custom label container.
 
                 label.bind("click", function(){
                     if (!label.hasClass("disabled")) {
-                        check.trigger("click");
+                        if (!label.attr("for")) check.trigger("click");
                         lbClick(label);
                     }
                 });
