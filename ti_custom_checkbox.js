@@ -10,7 +10,7 @@ You can disable your input by adding "disable" attribute.
 
 You can set left or right position for check icon and set margin.
 
-After changing your input you should to refresh custom label state:
+After changing your input you should refresh custom label state:
     $("input[type='checkbox']").tiCheckbox().refresh();
 
 You can use this plugin also for radio buttons and groups. Plugin adds special class "radio" for
